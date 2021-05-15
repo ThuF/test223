@@ -21,6 +21,7 @@ jobs:
         architecture: x64
     - name: cmd
       run: |
+        cp -r "${JAVA_HOME}" jdk
         pwd
         ls
   
